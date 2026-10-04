@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <rect x="20" y="20" width="600" height="440" rx="18" fill="rgba(214,164,106,0.12)" stroke="#5a3a22" stroke-width="3"/>
+  <path d="M320 70 C 240 70, 200 170, 200 230
+           C 200 330, 440 330, 440 230
+           C 440 170, 400 70, 320 70 Z"
+        fill="rgba(255,255,255,0.03)" stroke="rgba(0,0,0,0.18)" stroke-width="2"/>
+</svg>

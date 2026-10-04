@@ -6,21 +6,38 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "seed:materials": "tsx src/scripts/seed-materials.ts",
+    "seed:mandir": "tsx src/scripts/seed-mandir-template.ts",
+    "gen:mandir:svgs": "tsx src/scripts/gen-mandir-svgs.ts",
+    "seed:mandir:parts": "tsx src/scripts/seed-mandir-parts.ts",
+    "fix:canopy": "tsx src/scripts/fix-mandir-canopy-anchors.ts",
+    "seed:test-enquiry": "tsx src/scripts/seed-test-enquiry.ts",
+    "migrate:templates": "tsx src/scripts/migrate-templates.ts"
   },
   "dependencies": {
+    "cloudinary": "^2.11.0",
+    "jose": "^6.2.12",
+    "konva": "^10.7.0",
+    "mongoose": "^9.10.2",
     "next": "16.3.6",
-    "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-hook-form": "^7.89.0",
+    "react-konva": "^19.3.0",
+    "zod": "^4.6.5",
+    "zustand": "^5.0.15"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^18.0.4",
     "eslint": "^9",
     "eslint-config-next": "16.3.6",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }
